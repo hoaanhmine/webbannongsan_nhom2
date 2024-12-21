@@ -5,7 +5,7 @@
     
 }
 #khung{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     width: 1500px;
 }
@@ -23,6 +23,16 @@
     width: 100%;
     height: 100%;
 }
+.timkiem{
+    margin: 20px;
+}
+.timkiem input{
+    border-right: 30px;
+    border-radius: 30px;
+    padding: 10px 5px;
+
+}
+
 .menuphai{
    background-color: rgb(255, 255, 255);
 
@@ -59,11 +69,13 @@
 }
 .menungang  a:hover{
     color: rgb(255, 0, 0);
+    background-color: bisque;
+    border-radius: 20%;
     
 }
 .banner{
     background-color: aqua;
-    height: 3000px;
+    height: 600px;
     width: 1500px;
 }
 
