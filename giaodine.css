@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+#khung{
+    margin: auto;
+    width: 1500px;
+}
+.dau{
+    height: 500px;
+}
+.menu{
+    height: 75px;
+    display: flex;
+}
+.menutrai{
+    flex: 1;
+}
+.menutrai img{
+    width: 100%;
+    height: 100%;
+}
+.menuphai{
+   background-color: rgb(255, 255, 255);
+
+    flex: 4;
+}
+.menuphai ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    list-style: none;
+}
+.menuphai li a{
+    text-decoration: none;
+    color: black;
+}
+.menuphai a:hover{
+    color: rgb(255, 0, 0);
+}
+.menungang{
+    background-color: aquamarine;
+    height: 40px;
+    line-height: 37px;
+}
+.menungang ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menungang li a{
+   
+    text-decoration: none;
+}
+.menungang  a:hover{
+    color: rgb(255, 0, 0);
+    
+}
