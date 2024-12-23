@@ -1,3 +1,7 @@
+<?php
+	$connect = mysqli_connect('localhost','root','','nogsan');
+	mysqli_set_charset($connect, "utf8");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
