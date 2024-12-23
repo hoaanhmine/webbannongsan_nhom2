@@ -25,7 +25,7 @@
                        <li><a href="https://nongsanantam.vn/dich-vu/"> DỊCH VỤ</a></li>
                         <li><a href="https://nongsanantam.vn/tin-tuc/"> TIN TỨC</a></li>
                         <li><a href="">LIÊN HỆ</a></li>
-                        <li><a href="http://127.0.0.1:5500/login.html">TÀI KHOẢN</a></li>
+                        <li><a href="http://127.0.0.1:5500/login.html"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
                     </ul>
                 </div>
             

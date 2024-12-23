@@ -11,6 +11,6 @@
         <?php include("./page/header.php")?>
         <?php include("./page/menu.php")?>
         <?php include("./page/baner.php")?>
-
+        <?php include("./page/sanpham.php")?>
 </body>
 </html>
