@@ -20,7 +20,7 @@
 			$user_name = $_POST["user_name"];
 			$pass1 = $_POST["pass1"];
 			$pass2 = $_POST["pass2"];
-			$name = $_POST["full_name"];
+			$name = $_POST["FullName"];
 			//kiểm tra xem 2 mật khẩu có giống nhau hay không:
 			if($pass1!=$pass2){
 				header("location:index.php?page=register");
@@ -29,7 +29,7 @@
 			else{
 				$pass = md5($pass1);
 				mysqli_query($connect,"
-					insert into user (user_name,password,full_name)
+					insert into user (user_name,PasswordHash,FullName)
 					values ('$user_name','$pass','$name')
 				");
 				header("location:index.php?page=register");
@@ -47,7 +47,7 @@
 			$tk = $_POST["user_name_lg"];
 			$mk = md5($_POST["passlg"]);
 			$rows = mysqli_query($connect,"
-				select * from user where user_name = '$tk' and password = '$mk'
+				select * from user where user_name = '$tk' and PasswordHash = '$mk'
 			");
 			$count = mysqli_num_rows($rows);
 			if($count==1){
