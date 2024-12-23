@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,5 +13,6 @@
         <?php include("./page/menu.php")?>
         <?php include("./page/baner.php")?>
         <?php include("./page/sanpham.php")?>
+        <?php include("./page/footer.php")?>
 </body>
 </html>
