@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nông Sản HmnFnF</title>
-    <link rel="stylesheet" href="./giaodine.css">
+    <link rel="stylesheet" href="./css/giaodine.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
 </head>
 <body>
     <div id="khung">
-        <div class="dau">
+        
             <div class="menu">
                 <div class="menutrai">
                     <a href=""><img src="./image/Logo_n.png" alt=""></a>
@@ -28,23 +28,9 @@
                         <li><a href="http://127.0.0.1:5500/login.html">TÀI KHOẢN</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="menungang">
-                <ul>
-                <li><a href="">Trái cây</a></li>
-                <li><a href="">Rau,củ</a></li>
-                <li><a href="">Ẩm thực</a></li>
-                <li><a href="">Lúa gạo</a></li>
-                <li><a href="">Thịt,trứng</a></li>
-                <li></li>
-                <li></li>
-            </ul>
-            </div>
-            <div class="banner">
-                <img src="./image/logo 3.jpg" alt="">
-                
-            </div>
-        </div>
+            
+
+
 </div>
 </body>
 </html>
