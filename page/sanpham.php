@@ -1,35 +1,35 @@
-<div class="sanpham"><h2>Sản phẩm mới nhất</h2></div>
+<div class="sanpham"><h2>Sản phẩm tiêu biểu</h2></div>
     <section class="products" class="container">
         <div class="product-slider">
             <div class="danhmucsp">
                 <div class="sp">
-                    <img src="product1.jpg" alt="Sản phẩm 1">
-                    <h3>Sản phẩm 1</h3>
-                    <p>Giá: 500,000 VND</p>
+                    <img src="./image/anhsp/apple1.jpg" alt="Sản phẩm 1">
+                    <h3>Quả táo</h3>
+                    <p>Giá: 10,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="product2.jpg" alt="Sản phẩm 2">
-                    <h3>Sản phẩm 2</h3>
-                    <p>Giá: 750,000 VND</p>
+                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
+                    <h3>Orange</h3>
+                    <p>Giá: 15,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="product3.jpg" alt="Sản phẩm 3">
-                    <h3>Sản phẩm 3</h3>
-                    <p>Giá: 1,000,000 VND</p>
+                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
+                    <h3>Banana</h3>
+                    <p>Giá: 70,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="product4.jpg" alt="Sản phẩm 4">
-                    <h3>Sản phẩm 4</h3>
-                    <p>Giá: 650,000 VND</p>
+                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
+                    <h3>watermelon</h3>
+                    <p>Giá: 60,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="product5.jpg" alt="Sản phẩm 5">
-                    <h3>Sản phẩm 5</h3>
-                    <p>Giá: 800,000 VND</p>
+                    <img src="./image/anhsp/quadao.jpg" alt="Sản phẩm 5">
+                    <h3>peach</h3>
+                    <p>Giá: 50,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <!-- Thêm sản phẩm nếu cần -->

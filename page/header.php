@@ -20,11 +20,11 @@
                 </div>
                 <div class="menuphai">
                     <ul>
-                        <li><a href="http://127.0.0.1:5500/giaodien.html"><i class="fa-solid fa-house"></i>TRANG CHỦ</a></li>
-                        <li><a href="https://nongsanantam.vn/gioi-thieu/">GIỚI THIỆU</a></li>
+                        <li><a href="http://localhost/webbannongsan_nhom2/"><i class="fa-solid fa-house"></i>TRANG CHỦ</a></li>
+                        <li><a href="https://nongsanantam.vn/gioi-thieu/"><i class="fa-solid fa-info"></i>GIỚI THIỆU</a></li>
                        <li><a href="https://nongsanantam.vn/dich-vu/"> DỊCH VỤ</a></li>
                         <li><a href="https://nongsanantam.vn/tin-tuc/"> TIN TỨC</a></li>
-                        <li><a href="">LIÊN HỆ</a></li>
+                        <li><a href=""><i class="fa-solid fa-phone"></i>LIÊN HỆ</a></li>
                         <li><a href="http://127.0.0.1:5500/login.html"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
                     </ul>
                 </div>
