@@ -1,7 +1,7 @@
 <div class="sanpham"><h2>Sản phẩm mới nhất</h2></div>
     <section class="products" class="container">
         <div class="product-slider">
-            <div class="product-list">
+            <div class="danhmucsp">
                 <div class="sp">
                     <img src="product1.jpg" alt="Sản phẩm 1">
                     <h3>Sản phẩm 1</h3>
@@ -32,7 +32,7 @@
                     <p>Giá: 800,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
-                <!-- Thêm nhiều sản phẩm nếu cần -->
+                <!-- Thêm sản phẩm nếu cần -->
             </div>
         </div>
     </section>
