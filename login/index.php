@@ -71,7 +71,7 @@
 	<div class="container">
 		<div class="row">
 			<a href="index.php?page=register" class="btn btn-success">Đăng ký</a>
-			<a href="index.php" class="btn btn-info">'Trang chủ'</a>
+			<a href="index.php" class="btn btn-info">Trang chủ</a>
 			<?php if(isset($_SESSION["loged"])) echo "<a href='index.php?act=logout' class='btn btn-danger'>Đăng xuất</a>"; ?>
 		</div>
 
