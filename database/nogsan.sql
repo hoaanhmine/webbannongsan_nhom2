@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 22, 2024 lúc 05:07 AM
+-- Thời gian đã tạo: Th12 23, 2024 lúc 05:17 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `web_mysqli`
+-- Cơ sở dữ liệu: `nogsan`
 --
 
 -- --------------------------------------------------------
@@ -100,6 +100,7 @@ CREATE TABLE `products` (
 
 CREATE TABLE `users` (
   `UserID` int(11) NOT NULL,
+  `user_name` varchar(50) NOT NULL,
   `FullName` varchar(100) NOT NULL,
   `Email` varchar(100) NOT NULL,
   `PasswordHash` varchar(255) NOT NULL,
