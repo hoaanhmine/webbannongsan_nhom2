@@ -38,8 +38,8 @@ CREATE TABLE `adminactions` (
 
 --
 -- Cấu trúc bảng cho bảng `categories`
---
-
+-- Danh mục
+ 
 CREATE TABLE `categories` (
   `CategoryID` int(11) NOT NULL,
   `CategoryName` varchar(100) NOT NULL,
@@ -51,7 +51,7 @@ CREATE TABLE `categories` (
 
 --
 -- Cấu trúc bảng cho bảng `orderdetails`
---
+-- 
 
 CREATE TABLE `orderdetails` (
   `OrderDetailID` int(11) NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE `orderdetails` (
 
 --
 -- Cấu trúc bảng cho bảng `orders`
---
+-- Đơn Hàng
 
 CREATE TABLE `orders` (
   `OrderID` int(11) NOT NULL,
@@ -79,7 +79,7 @@ CREATE TABLE `orders` (
 
 --
 -- Cấu trúc bảng cho bảng `products`
---
+--Sản phẩm
 
 CREATE TABLE `products` (
   `ProductID` int(11) NOT NULL,
@@ -97,7 +97,7 @@ CREATE TABLE `products` (
 --
 -- Cấu trúc bảng cho bảng `users`
 --
-
+ 
 CREATE TABLE `users` (
   `UserID` int(11) NOT NULL,
   `user_name` varchar(50) NOT NULL,
