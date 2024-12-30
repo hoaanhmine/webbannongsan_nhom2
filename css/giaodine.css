@@ -7,7 +7,7 @@
 #khung{
     background-color: rgb(255, 255, 255);
     margin: auto;
-    width: 1500px;
+    width: 1200px;
 }
 
 .menu{
@@ -73,8 +73,8 @@
 }
 .banner{
     background-color: aqua;
-    height: 600px;
-    width: 1500px;
+    height: 500px;
+    width: 1200px;
 }
 
 .banner img{
