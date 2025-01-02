@@ -12,8 +12,8 @@
     <div id="khung">
         <?php include("./page/header.php")?>
         <?php include("./page/baner.php")?>
-        <?php include("./page/sidebar.php")?>
         <?php include("./page/sanpham.php")?>
+        <?php include("./page/sidebar.php")?>
         <?php include("./page/footer.php")?>
     </div>
 </body>

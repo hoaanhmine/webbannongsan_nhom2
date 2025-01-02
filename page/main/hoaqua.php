@@ -50,30 +50,6 @@
                     <p>Giá: 70,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
-                <div class="sp">
-                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
-                    <h3>watermelon</h3>
-                    <p>Giá: 60,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/quadao.jpg" alt="Sản phẩm 5">
-                    <h3>peach</h3>
-                    <p>Giá: 50,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/quadao.jpg" alt="Sản phẩm 5">
-                    <h3>peach</h3>
-                    <p>Giá: 50,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
-                    <h3>Banana</h3>
-                    <p>Giá: 70,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
                                 <!-- Thêm sản phẩm nếu cần -->
             </div>
         </div>
