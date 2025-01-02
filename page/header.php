@@ -26,6 +26,7 @@
                         <li><a href="https://nongsanantam.vn/tin-tuc/"> TIN TỨC</a></li>
                         <li><a href=""><i class="fa-solid fa-phone"></i>LIÊN HỆ</a></li>
                         <li><a href="http://127.0.0.1:5500/login.html"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
+                        <li><a href=""><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng</a></li>
                     </ul>
                 </div>
             

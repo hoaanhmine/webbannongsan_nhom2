@@ -49,28 +49,7 @@
 .menuphai a:hover{
     color: rgb(255, 0, 0);
 }
-.menungang{
-    background-color: aquamarine;
-    height: 40px;
-    line-height: 37px;
-}
-.menungang ul {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.menungang li a{
-   
-    text-decoration: none;
-}
-.menungang  a:hover{
-    color: rgb(255, 0, 0);
-    background-color: bisque;
-    border-radius: 20%;
-    
-}
+
 .banner{
     background-color: aqua;
     height: 500px;
@@ -82,6 +61,17 @@
     height: 100%;
     
 }
+#main{
+    border:  1px solid black;
+    height: 400px;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid beige;
+    height:  350px;
+    width: 20%;
+}
+
 .danhmucsp {
     display: flex;
     flex-wrap: wrap;
@@ -139,11 +129,4 @@
     background-color: aquamarine;
     display: flex;
     text-decoration: none;
-}
-.lienhe a {
-    text-decoration: none;
-   
-}
-.lienhe a:hover{
-    color: red;
 }
