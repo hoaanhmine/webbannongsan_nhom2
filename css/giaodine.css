@@ -143,40 +143,32 @@
 .menusp ul li a {
     color: #ecf0f1;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    box-sizing: border-box;
     border-radius: 20%;
+    width: 50px;
 }
 
 .menusp ul li a:hover {
     background-color: cyan;
-    color: #3498db;
+    
+    color: #ff0000;
 }
 
-.content {
+
+
+/*  menu sp bên phải */
+
+.noidung {
     width: 80%;
     padding: 20px;
     overflow-y: auto;
     text-align: center;
 }
 
-.content h2 {
+.noidung h2 {
     margin-top: 0;
     color: #34495e;
-}
-
-
-/*  menu sp bên phải */
-
-.productssp {
-    flex: 1;
-    overflow-x: hidden; 
-    overflow-y: auto;   
-    padding: 10px;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* noi dung */
@@ -238,8 +230,15 @@
    
    /* footer */
    .phancuoi{
-    margin: 10px;
     background-color: aquamarine;
     display: flex;
     text-decoration: none;
+    width: 100%;
+}
+.lienhe a {
+    text-decoration: none;
+}
+.lienhe a:hover{
+color: #ff0101;
+
 }

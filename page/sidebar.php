@@ -4,7 +4,7 @@
         <?php
         include("main/menu.php")
         ?>
-        <div class="content">
+        <div class="noidung">
             <?php
             if (isset($_GET['category'])) {
                 $category = $_GET['category'];
