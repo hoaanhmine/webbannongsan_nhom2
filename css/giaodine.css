@@ -47,6 +47,11 @@ body{
     padding: 10px 5px;
 
 }
+.timkiem .nhan{
+    width: 100px;
+    height: 40px;
+}
+
 
 .menuphai{
    background-color: rgb(255, 255, 255);
