@@ -7,7 +7,7 @@
 #khung{
     background-color: rgb(255, 255, 255);
     margin: auto;
-    width: 1200px;
+    width: 1000px;
 }
 
 .menu{
@@ -61,11 +61,7 @@
     height: 100%;
     
 }
-#main{
-    border:  1px solid black;
-    height: 400px;
-    width: 100%;
-}
+
 .sidebar{
     border: 1px solid beige;
     height:  350px;
@@ -130,3 +126,55 @@
     display: flex;
     text-decoration: none;
 }
+#main{
+    border:  1px solid rgb(162, 0, 255);
+    height: 400px;
+    width:  100%;
+   
+   }
+   /* sidebar   */
+   .sidebar{
+       border:  1px solid springgreen;
+       height: 350px;
+       width: 20%;
+       margin-top: 5px;
+       margin-left: 5px;
+       float: left;
+   
+   }
+   ul.list_sidebar{
+       padding: 0;
+       margin: 0;
+       width: 80%;
+       border: 1px solid rgb(255, 255, 255);
+       list-style: none;
+       line-height: 27px ;
+   }
+   ul.list_sidebar li:hover{
+   
+   background-color: burlywood;
+   
+   }
+   ul.list_sidebar li a {
+       text-decoration:  none;
+       text-align: center;
+       color: blueviolet;
+   
+   }
+   ul.list_sidebar li a:hover{
+   
+       color: red;
+   }
+   ul.list_sidebar li{
+       margin: 7px;
+       padding: 7px;
+   }
+   /* noi dung */
+   .maincontent{
+   border:  1px solid rgb(255, 0, 0);
+       height:  390px;
+       width: 77%;
+       margin-top: 5px ;
+       margin-left : 5px; ;
+       float: right;
+   }
