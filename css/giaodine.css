@@ -161,14 +161,14 @@
 
 .noidung {
     width: 80%;
-    padding: 20px;
+    padding: 18px;
     overflow-y: auto;
     text-align: center;
 }
 
 .noidung h2 {
     margin-top: 0;
-    color: #34495e;
+    color: #4cfb61;
 }
 
 /* noi dung */

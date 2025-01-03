@@ -12,11 +12,11 @@
         
             <div class="menu">
                 <div class="menutrai">
-                    <a href=""><img src="./image/Logo_n.png" alt=""></a>
+                    <a href="http://localhost/webbannongsan_nhom2/"><img src="./image/Logo_n.png" alt=""></a>
                 </div>
                 <div class="timkiem">
-                    <input type="text" placeholder="tìm kiếm...">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                   <a href="#"> <input type="text" placeholder="tìm kiếm..."><i class="fa-solid fa-magnifying-glass"></i></a>
+                    
                 </div>
                 <div class="menuphai">
                     <ul>
@@ -25,7 +25,7 @@
                        <li><a href="https://nongsanantam.vn/dich-vu/"> DỊCH VỤ</a></li>
                         <li><a href="https://nongsanantam.vn/tin-tuc/"> TIN TỨC</a></li>
                         <li><a href=""><i class="fa-solid fa-phone"></i>LIÊN HỆ</a></li>
-                        <li><a href="http://127.0.0.1:5500/login.html"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
+                        <li><a href="http://localhost/webbannongsan_nhom2/login/"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
                         <li><a href=""><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng</a></li>
                     </ul>
                 </div>
