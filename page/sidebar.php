@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="giaodine.css">
 
-    <div class="containersp">
+    <div class="danhsach">
         <?php
         include("main/menu.php")
         ?>
@@ -26,8 +26,8 @@
                         include('main/luagao.php');
                         break;
 
-                    case 'thittung':
-                        include('main/thi trung.php');
+                    case 'thittrung':
+                        include('main/thittrung.php');
                         break;
 
                     default:
