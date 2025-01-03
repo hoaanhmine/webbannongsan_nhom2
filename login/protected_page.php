@@ -13,7 +13,7 @@ if (!isset($_SESSION['userID'])) {
 </head>
 <body>
     <h2>Welcome, <?php echo $_SESSION['email']; ?>!</h2>
-    <p>This is a protected page.</p>
+    <p>Trang đang được bảo vệ.</p>
     <a href="logout.php">Logout</a>
 </body>
 </html>
