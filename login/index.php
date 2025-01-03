@@ -36,8 +36,10 @@ $stmt->close();
             <p>Trạng thái: <?php echo htmlspecialchars($status); ?></p>
             <p>Ngày tạo tài khoản: <?php echo htmlspecialchars($createdAt); ?></p>
         </div>
-        <a href="../login/logout.php">Đăng xuất</a>
         <a href="../index.php">Trang chủ</a>
+        <a href="../index.php">||</a>
+        <a href="../login/logout.php">Đăng xuất</a>
+        
 
         <h2>Chỉnh sửa thông tin</h2>
         <form action="index.php" method="post">

@@ -47,7 +47,7 @@ if (isset($_GET['tukhoa'])) {
             <?php else: ?>
                 <?php foreach ($products as $product): ?>
                     <div class="product">
-                        <h4><?php echo htmlspecialchars($product['ProductName']); ?> (ID: <?php echo htmlspecialchars($product['ProductID']); ?>)</h4>
+                        <h4><a href="product_detail.php?productID=<?php echo htmlspecialchars($product['ProductID']); ?>"><?php echo htmlspecialchars($product['ProductName']); ?></a> (ID: <?php echo htmlspecialchars($product['ProductID']); ?>)</h4>
                         <p>Giá: <?php echo htmlspecialchars($product['Price']); ?></p>
                         <p>Số lượng: <?php echo htmlspecialchars($product['Stock']); ?></p>
                         <p>Mô tả: <?php echo htmlspecialchars($product['Description']); ?></p>
