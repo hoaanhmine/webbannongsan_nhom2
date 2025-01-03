@@ -147,11 +147,12 @@ body{
 }
 
 .menusp ul li {
-    margin: 50px 0;
+    margin: 10px 0;
     text-align: center;
-    border-radius: 30%;
     height: 50px;
-    line-height: 55px;
+    line-height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 .menusp ul li:hover{
     background-color: cyan;
@@ -190,7 +191,9 @@ body{
 
 /* noi dung */
  .danhmucsp {
-    display:flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
