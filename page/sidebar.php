@@ -10,23 +10,23 @@
                 $category = $_GET['category'];
 
                 switch ($category) {
-                    case 'Trai cây':
+                    case 'traicay':
                         include('main/hoaqua.php');
                         break;
 
-                    case 'Rau củ':
+                    case 'raucu':
                         include('main/raucu.php');
                         break;
 
-                    case 'Ẩm thực':
+                    case 'amthuc':
                         include('main/amthuc.php');
                         break;
 
-                    case 'Lúa gạo':
+                    case 'luagao':
                         include('main/luagao.php');
                         break;
 
-                    case 'Thịt trứng':
+                    case 'thittung':
                         include('main/thi trung.php');
                         break;
 

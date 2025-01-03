@@ -7,12 +7,23 @@
 #khung{
     background-color: rgb(255, 255, 255);
     margin: auto;
-    width: 1000px;
+    width: 1200px;
 }
+#main{
+    border:  1px solid rgb(162, 0, 255);
+    height: 400px;
+    width:  100%;
+   
+   }
+
+
+
+   /* header */
 
 .menu{
-    height: 75px;
+    height: 80px;
     display: flex;
+    width: 1200px;
 }
 .menutrai{
     flex: 1;
@@ -41,6 +52,7 @@
     justify-content: space-around;
     line-height: 50px;
     list-style: none;
+    
 }
 .menuphai li a{
     text-decoration: none;
@@ -53,7 +65,7 @@
 .banner{
     background-color: aqua;
     height: 500px;
-    width: 1200px;
+    width: 100%;
 }
 
 .banner img{
@@ -62,18 +74,119 @@
     
 }
 
-.sidebar{
-    border: 1px solid beige;
-    height:  350px;
-    width: 20%;
+
+
+ 
+   /* menu sản phẩm */
+
+.vertical-menu body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #da0d0d;
+}
+.vertical-menu {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+.vertical-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s;
+}
+.vertical-menu a:last-child {
+    border-bottom: none;
+}
+.vertical-menu a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+.vertical-menu a.active {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
 }
 
-.danhmucsp {
+/* menu bên trái */
+
+.containersp {
     display: flex;
+    width: 100%;
+    height: 80vh;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menusp {
+    width: 25%;
+    background: #016c26;
+    padding: 10px;
+    color: #fff;
+}
+
+.menusp ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menusp ul li {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.menusp ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20%;
+}
+
+.menusp ul li a:hover {
+    background-color: cyan;
+    color: #3498db;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #34495e;
+}
+
+
+/*  menu sp bên phải */
+
+.productssp {
+    flex: 1;
+    overflow-x: hidden; 
+    overflow-y: auto;   
+    padding: 10px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* noi dung */
+ .danhmucsp {
+    display:flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     text-align: center;
+    width: 1000px;
 }
 
 .sp {
@@ -118,63 +231,15 @@
 }
 
 .sp button:hover {
-    background: #8e3e38;
+    background: #cd4e2e;
 }
-.phancuoi{
+  
+   
+   
+   /* footer */
+   .phancuoi{
     margin: 10px;
     background-color: aquamarine;
     display: flex;
     text-decoration: none;
 }
-#main{
-    border:  1px solid rgb(162, 0, 255);
-    height: 400px;
-    width:  100%;
-   
-   }
-   /* sidebar   */
-   .sidebar{
-       border:  1px solid springgreen;
-       height: 350px;
-       width: 20%;
-       margin-top: 5px;
-       margin-left: 5px;
-       float: left;
-   
-   }
-   ul.list_sidebar{
-       padding: 0;
-       margin: 0;
-       width: 80%;
-       border: 1px solid rgb(255, 255, 255);
-       list-style: none;
-       line-height: 27px ;
-   }
-   ul.list_sidebar li:hover{
-   
-   background-color: burlywood;
-   
-   }
-   ul.list_sidebar li a {
-       text-decoration:  none;
-       text-align: center;
-       color: blueviolet;
-   
-   }
-   ul.list_sidebar li a:hover{
-   
-       color: red;
-   }
-   ul.list_sidebar li{
-       margin: 7px;
-       padding: 7px;
-   }
-   /* noi dung */
-   .maincontent{
-   border:  1px solid rgb(255, 0, 0);
-       height:  390px;
-       width: 77%;
-       margin-top: 5px ;
-       margin-left : 5px; ;
-       float: right;
-   }

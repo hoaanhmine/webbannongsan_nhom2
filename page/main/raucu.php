@@ -1,23 +1,56 @@
-<h1>Rau củ</h1>
-<div class="productssp">
-            <?php
-            $products = [
-                ["name" => "Sản phẩm 1", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 1"],
-                ["name" => "Sản phẩm 2", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 2"],
-                ["name" => "Sản phẩm 3", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 3"],
-                ["name" => "Sản phẩm 4", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 4"],
-                ["name" => "Sản phẩm 5", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 5"],
-                ["name" => "Sản phẩm 6", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 6"],
-                ["name" => "Sản phẩm 7", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 7"],
-                ["name" => "Sản phẩm 8", "image" => "https://via.placeholder.com/150", "description" => "Mô tả sản phẩm 8"],
-            ];
-
-            foreach ($products as $product) {
-                echo "<div class='product'>
-                        <img src='{$product['image']}' alt='{$product['name']}'>
-                        <h3>{$product['name']}</h3>
-                        <p>{$product['description']}</p>
-                      </div>";
-            }
-            ?>
+<div class="sanpham"><h2>Sản phẩm tiêu biểu</h2></div>
+    <section class="products" class="container">
+        <div class="product-slider">
+            <div class="danhmucsp">
+                <div class="sp">
+                    <img src="./image/anhsp/apple1.jpg" alt="Sản phẩm 1">
+                    <h3>Apple</h3>
+                    <p>Giá: 10,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
+                    <h3>Orange</h3>
+                    <p>Giá: 15,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
+                    <h3>Banana</h3>
+                    <p>Giá: 70,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
+                    <h3>watermelon</h3>
+                    <p>Giá: 60,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/quadao.jpg" alt="Sản phẩm 5">
+                    <h3>peach</h3>
+                    <p>Giá: 50,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/apple1.jpg" alt="Sản phẩm 1">
+                    <h3>Apple</h3>
+                    <p>Giá: 10,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
+                    <h3>Orange</h3>
+                    <p>Giá: 15,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
+                    <h3>Banana</h3>
+                    <p>Giá: 70,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                                <!-- Thêm sản phẩm nếu cần -->
+            </div>
         </div>
+    </section>
