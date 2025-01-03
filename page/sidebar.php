@@ -36,6 +36,7 @@
                 }
             } else {
                 echo "<h2>Chọn một danh mục để xem sản phẩm</h2>";
+                include('main/hoaqua.php');
             }
             ?>
         </div>

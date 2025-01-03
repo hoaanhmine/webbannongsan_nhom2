@@ -4,8 +4,12 @@
     font-weight: bold;
     
 }
+body{
+    background-color: rgb(255, 255, 255); 
+
+}
 #khung{
-    background-color: rgb(255, 255, 255);
+     background-color: rgb(255, 255, 255);
     margin: auto;
     width: 1200px;
 }
@@ -27,6 +31,7 @@
 }
 .menutrai{
     flex: 1;
+    background-color: #ffffff;
 }
 .menutrai img{
     width: 100%;
@@ -34,6 +39,7 @@
 }
 .timkiem{
     margin: 20px;
+    background-color: #ffffff;
 }
 .timkiem input{
     border-right: 30px;

@@ -7,12 +7,14 @@
     <title>Nông Sản HmnFnF</title>
     <link rel="stylesheet" href="giaodine.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    
 </head>
-<body>
+<body style="background-color: rgb(255, 0, 0);" >
     <div id="khung">
         <?php include("./page/header.php")?>
         <?php include("./page/baner.php")?>
         <?php include("./page/sidebar.php")?>
+        <?php include("./page/footer.php")?>
     </div>
 </body>
 </html>

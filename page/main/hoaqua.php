@@ -1,4 +1,4 @@
-<div class="sanpham"><h2>Sản phẩm tiêu biểu</h2></div>
+<div class="sanpham"></div>
     <section class="products" class="container">
         <div class="product-slider">
             <div class="danhmucsp">
