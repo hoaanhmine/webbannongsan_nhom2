@@ -81,15 +81,18 @@ CREATE TABLE `orders` (
 -- Cấu trúc bảng cho bảng `products`
 --Sản phẩm
 
-CREATE TABLE `products` (
-  `ProductID` int(11) NOT NULL,
+CREATE TABLE `Products` (
+  `ProductID` int(11) NOT NULL AUTO_INCREMENT,
   `ProductName` varchar(100) NOT NULL,
   `CategoryID` int(11) DEFAULT NULL,
   `Price` decimal(10,2) NOT NULL,
   `Stock` int(11) DEFAULT 0,
   `Description` text DEFAULT NULL,
   `ImageURL` varchar(255) DEFAULT NULL,
-  `CreatedAt` datetime DEFAULT current_timestamp()
+  `CreatedAt` datetime DEFAULT current_timestamp(),
+  PRIMARY KEY (`ProductID`),
+  KEY `FK_Category` (`CategoryID`),
+  CONSTRAINT `FK_Category` FOREIGN KEY (`CategoryID`) REFERENCES `categories` (`CategoryID`) ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------

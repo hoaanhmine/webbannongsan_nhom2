@@ -25,10 +25,9 @@ $stmt->close();
 <html>
 <head>
     <title>Thông tin người dùng</title>
-    <link rel="stylesheet" type="text/css" href="login/styles.css">
+    <link rel="stylesheet" type="text/css" href="../login/styles.css">
 </head>
 <body>
-<a href="../index.php">Trang chủ</a>
     <div class="container">
         <h2>Chào mừng, <?php echo htmlspecialchars($fullName); ?>!</h2>
         <div class="user-info">
@@ -38,6 +37,7 @@ $stmt->close();
             <p>Ngày tạo tài khoản: <?php echo htmlspecialchars($createdAt); ?></p>
         </div>
         <a href="../login/logout.php">Đăng xuất</a>
+        <a href="../index.php">Trang chủ</a>
 
         <h2>Chỉnh sửa thông tin</h2>
         <form action="index.php" method="post">
@@ -49,12 +49,22 @@ $stmt->close();
             <input type="password" id="password" name="password">
             <input type="submit" value="Update">
         </form>
+
+        <?php if ($role === 'admin'): ?>
+            <h2>Quản lý sản phẩm</h2>
+            <a href="../admincp/add_product.php">Đăng sản phẩm mới</a>
+            <h2>Quản lý danh mục</h2>
+            <a href="../admincp/add_category.php">Thêm danh mục mới</a>
+            <h2>Xem danh mục và sản phẩm</h2>
+            <a href="../admincp/view_categories.php">Xem danh mục và sản phẩm</a>
+        <?php endif; ?>
     </div>
 </body>
 </html>
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Handle user information update
     $newFullName = $_POST['fullname'];
     $newEmail = $_POST['email'];
     $newPassword = $_POST['password'];
