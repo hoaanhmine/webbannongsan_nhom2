@@ -115,7 +115,7 @@
 
 /* menu bên trái */
 
-.containersp {
+.danhsach {
     display: flex;
     width: 100%;
     height: 80vh;
@@ -125,7 +125,7 @@
 
 .menusp {
     width: 25%;
-    background: #016c26;
+    background: #03a33b;
     padding: 10px;
     color: #fff;
 }
@@ -136,21 +136,27 @@
 }
 
 .menusp ul li {
-    margin: 100px 0;
+    margin: 50px 0;
     text-align: center;
+    border-radius: 30%;
+    height: 50px;
+    line-height: 55px;
 }
+.menusp ul li:hover{
+    background-color: cyan;
 
+}
 .menusp ul li a {
     color: #ecf0f1;
     text-decoration: none;
     font-size: 20px;
     box-sizing: border-box;
     border-radius: 20%;
-    width: 50px;
+    
 }
 
 .menusp ul li a:hover {
-    background-color: cyan;
+
     
     color: #ff0000;
 }
