@@ -156,39 +156,6 @@ button.prev:hover, button.next:hover {
  
    /* menu sản phẩm */
 
-.vertical-menu body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    background-color: #da0d0d;
-}
-.vertical-menu {
-    width: 200px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-.vertical-menu a {
-    display: block;
-    color: #333;
-    text-decoration: none;
-    padding: 12px 16px;
-    border-bottom: 1px solid #ddd;
-    transition: all 0.3s;
-}
-.vertical-menu a:last-child {
-    border-bottom: none;
-}
-.vertical-menu a:hover {
-    background-color: #007BFF;
-    color: #fff;
-}
-.vertical-menu a.active {
-    background-color: #0056b3;
-    color: white;
-    font-weight: bold;
-}
 
 /* menu bên trái */
 
@@ -248,6 +215,7 @@ button.prev:hover, button.next:hover {
     padding: 18px;
     overflow-y: auto;
     text-align: center;
+    height: 400px;
 }
 
 .noidung h2 {
