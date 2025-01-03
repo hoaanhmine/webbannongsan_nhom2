@@ -32,15 +32,18 @@
     width: 100%;
     height: 100%;
 }
-.timkiem{
-    margin: 20px;
-}
+
 .timkiem input{
     border-right: 30px;
     border-radius: 30px;
     padding: 10px 5px;
 
 }
+.timkiem .nhan{
+    width: 100px;
+    height: 40px;
+}
+
 
 .menuphai{
    background-color: rgb(255, 255, 255);
