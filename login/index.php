@@ -28,6 +28,7 @@ $stmt->close();
     <link rel="stylesheet" type="text/css" href="login/styles.css">
 </head>
 <body>
+<a href="../index.php">Trang chủ</a>
     <div class="container">
         <h2>Chào mừng, <?php echo htmlspecialchars($fullName); ?>!</h2>
         <div class="user-info">
