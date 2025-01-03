@@ -8,7 +8,7 @@ if (!isset($_SESSION['userID'])) {
 include('../admincp/config/config.php');
 
 // Fetch user information from the database
-$userID = i$_SESSION['userID'];
+$userID = $_SESSION['userID'];
 $stmt = $mysqli->prepare("SELECT FullName, Email, Role, Status, CreatedAt FROM Users WHERE UserID = ?");
 if ($stmt === false) {
     die('Prepare faled: ' . htmlspecialchars($mysqli->error));
