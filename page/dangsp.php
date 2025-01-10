@@ -1,4 +1,6 @@
 <?php
+session_start(); // Khởi tạo session
+
 // Kết nối đến cơ sở dữ liệu
 $servername = "localhost";
 $username = "root";
@@ -16,8 +18,45 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'add_to_cart') {
     $productID = $_POST['productID'];
 
-    // Thêm logic để thêm sản phẩm vào giỏ hàng
-    $success = "Sản phẩm đã được thêm vào giỏ hàng.";
+    // Lấy thông tin sản phẩm từ cơ sở dữ liệu
+    $stmt = $conn->prepare("SELECT ProductID, ProductName, Price FROM Products WHERE ProductID = ?");
+    if ($stmt === false) {
+        die('Prepare failed: ' . htmlspecialchars($conn->error));
+    }
+    $stmt->bind_param("i", $productID);
+    $stmt->execute();
+    $stmt->bind_result($productID, $productName, $price);
+    if ($stmt->fetch()) {
+        $product = [
+            'ProductID' => $productID,
+            'ProductName' => $productName,
+            'Price' => $price,
+            'Quantity' => 1
+        ];
+
+        // Thêm sản phẩm vào giỏ hàng
+        if (!isset($_SESSION['cart'])) {
+            $_SESSION['cart'] = [];
+        }
+
+        // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
+        $found = false;
+        foreach ($_SESSION['cart'] as &$item) {
+            if ($item['ProductID'] == $productID) {
+                $item['Quantity']++;
+                $found = true;
+                break;
+            }
+        }
+
+        // Nếu sản phẩm chưa có trong giỏ hàng, thêm mới
+        if (!$found) {
+            $_SESSION['cart'][] = $product;
+        }
+
+        $success = "Sản phẩm đã được thêm vào giỏ hàng.";
+    }
+    $stmt->close();
 }
 
 // Handle product search
@@ -123,6 +162,21 @@ $productStmt->close();
         .dangsp-sp:hover {
             transform: scale(1.05);
         }
+        .back-button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .back-button:hover {
+            background: #555;
+        }
     </style>
 </head>
 <body class="dangsp-body">
@@ -133,7 +187,7 @@ $productStmt->close();
                 <?php if (!empty($products)): ?>
                     <?php foreach ($products as $product): ?>
                         <div class="dangsp-sp">
-                            <a href="page/hienthisanpham.php?id=<?php echo $product['ProductID']; ?>">
+                            <a href="./page/hienthisanpham.php?id=<?php echo $product['ProductID']; ?>">
                                 <img src="<?php echo $product['ImageURL']; ?>" alt="<?php echo $product['ProductName']; ?>">
                             </a>
                             <h3><?php echo $product['ProductName']; ?></h3>
@@ -143,7 +197,7 @@ $productStmt->close();
                                 <input type="hidden" name="action" value="add_to_cart">
                                 <button type="submit">Thêm vào giỏ hàng</button>
                             </form>
-                            <button onclick="location.href='checkout.php?id=<?php echo $product['ProductID']; ?>'">Mua hàng</button>
+                            <button onclick="location.href='./page/checkout.php?id=<?php echo $product['ProductID']; ?>'">Mua hàng</button>
                         </div>
                     <?php endforeach; ?>
                 <?php else: ?>

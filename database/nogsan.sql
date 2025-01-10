@@ -67,13 +67,16 @@ CREATE TABLE `orderdetails` (
 -- Cấu trúc bảng cho bảng `orders`
 -- Đơn Hàng
 
-CREATE TABLE `orders` (
-  `OrderID` int(11) NOT NULL,
-  `UserID` int(11) NOT NULL,
-  `OrderDate` datetime DEFAULT current_timestamp(),
-  `TotalAmount` decimal(10,2) NOT NULL,
-  `Status` varchar(20) DEFAULT 'pending'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE Orders (
+    OrderID INT AUTO_INCREMENT PRIMARY KEY,
+    ProductID INT,
+    Name VARCHAR(255),
+    Email VARCHAR(255),
+    Phone VARCHAR(20),
+    Address TEXT,
+    Quantity INT,
+    OrderDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
 -- --------------------------------------------------------
 

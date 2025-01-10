@@ -28,7 +28,7 @@
                     <li><a href=""><i class="fa-solid fa-phone"></i>LIÊN HỆ</a></li>
                     <li><a href="http://localhost/webbannongsan_nhom2/login/"><i class="fa-solid fa-user"></i>TÀI KHOẢN</a></li>
                     <li><a href="../page/main/hoaqua.php"><i class="fa-solid fa-apple-alt"></i>HOA QUẢ</a></li>
-                    <li><a href=""><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng</a></li>
+                    <li><a href="page/cart.php"><i class="fa-solid fa-bag-shopping"></i>Giỏ hàng</a></li>
                 </ul>
             </div>
         </div>
