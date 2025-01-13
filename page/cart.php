@@ -101,7 +101,7 @@ session_start();
             <p>Giỏ hàng của bạn đang trống.</p>
             <button onclick="location.href='dangsp.php'">Tiếp tục mua sắm</button>
             <button onclick="location.href='../index.php'">Về trang chủ</button>
-        <?php endif; ?>
+        <?php endif; ?> 
     </div>
 </body>
 </html>
