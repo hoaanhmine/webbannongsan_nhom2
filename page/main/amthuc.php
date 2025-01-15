@@ -5,26 +5,26 @@
                     <!-- san pham trai -->
                 <div class="sptrai">
                 <div class="sp">
-                    <img src="./image/anhsp/gao.jpg" alt="Sản phẩm 1">
-                    <h3>Gạo tẻ</h3>
-                    <p>Giá: 10,000 VND</p>
+                    <img src="./image/anhsp/comsuon.jpg" alt="Sản phẩm 1">
+                    <h3>Cơm sườn</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
-                    <h3>Cam</h3>
-                    <p>Giá: 15,000 VND</p>
+                    <img src="./image/anhsp/comhaisan.jpg" alt="Sản phẩm 2">
+                    <h3>Cơm hải sản</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
-                    <h3>Chuối</h3>
-                    <p>Giá: 70,000 VND</p>
+                    <img src="./image/anhsp/comga.jpg" alt="Sản phẩm 3">
+                    <h3>cơm gà</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
-                    <h3>Dưa hấu</h3>
+                    <img src="./image/anhsp/cachepomdua.jpg" alt="Sản phẩm 4">
+                    <h3>Cá chép om dưa</h3>
                     <p>Giá: 60,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
@@ -33,27 +33,27 @@
                     <!-- san pham giua -->
                 <div class="spgiua">
                 <div class="sp">
-                    <img src="./image/anhsp/apple1.jpg" alt="Sản phẩm 1">
-                    <h3>Táo</h3>
-                    <p>Giá: 10,000 VND</p>
+                    <img src="./image/anhsp/ganuong.jpg" alt="Sản phẩm 1">
+                    <h3>Gà nướng</h3>
+                    <p>Giá: 50,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
-                    <h3>Cam</h3>
-                    <p>Giá: 15,000 VND</p>
+                    <img src="./image/anhsp/comga.jpg" alt="Sản phẩm 3">
+                    <h3>cơm gà</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
-                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
-                    <h3>Chuối</h3>
-                    <p>Giá: 70,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
-                    <h3>Dưa hấu</h3>
+                    <img src="./image/anhsp/cachepomdua.jpg" alt="Sản phẩm 4">
+                    <h3>Cá chép om dưa</h3>
                     <p>Giá: 60,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/comhaisan.jpg" alt="Sản phẩm 2">
+                    <h3>Cơm hải sản</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 </div>
@@ -61,27 +61,27 @@
                 
                 <div class="spphai">
                 <div class="sp">
-                    <img src="./image/anhsp/apple1.jpg" alt="Sản phẩm 1">
-                    <h3>Táo</h3>
-                    <p>Giá: 10,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/cam1.webp" alt="Sản phẩm 2">
-                    <h3>Cam</h3>
-                    <p>Giá: 15,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/chuoi1.webp" alt="Sản phẩm 3">
-                    <h3>Chuối</h3>
-                    <p>Giá: 70,000 VND</p>
-                    <button>Thêm vào giỏ hàng</button>
-                </div>
-                <div class="sp">
-                    <img src="./image/anhsp/duahau1.jpg" alt="Sản phẩm 4">
-                    <h3>Dưa hấu</h3>
+                    <img src="./image/anhsp/cachepomdua.jpg" alt="Sản phẩm 4">
+                    <h3>Cá chép om dưa</h3>
                     <p>Giá: 60,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/comhaisan.jpg" alt="Sản phẩm 2">
+                    <h3>Cơm hải sản</h3>
+                    <p>Giá: 35,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/ganuong.jpg" alt="Sản phẩm 1">
+                    <h3>Gà nướng</h3>
+                    <p>Giá: 50,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/comga.jpg" alt="Sản phẩm 3">
+                    <h3>cơm gà</h3>
+                    <p>Giá: 35,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                  </div>               <!-- Thêm sản phẩm nếu cần -->

@@ -11,8 +11,14 @@
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="sp">
+                    <img src="./image/anhsp/gao504.jpg" alt="Sản phẩm 2">
+                    <h3>Gạo 504</h3>
+                    <p>Giá: 15,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
                     <img src="./image/anhsp/gao.jpg" alt="Sản phẩm 2">
-                    <h3>Gạp nếp</h3>
+                    <h3>Gạo nếp</h3>
                     <p>Giá: 15,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
@@ -21,6 +27,12 @@
                     <!-- san pham giua -->
                 <div class="spgiua">
                 <div class="sp">
+                    <img src="./image/anhsp/gao504.jpg" alt="Sản phẩm 2">
+                    <h3>Gạo 504</h3>
+                    <p>Giá: 15,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
                     <img src="./image/anhsp/gao.jpg" alt="Sản phẩm 1">
                     <h3>Gạo tẻ</h3>
                     <p>Giá: 10,000 VND</p>
@@ -28,7 +40,7 @@
                 </div>
                 <div class="sp">
                     <img src="./image/anhsp/gao.jpg" alt="Sản phẩm 2">
-                    <h3>Gạp nếp</h3>
+                    <h3>Gạo nếp</h3>
                     <p>Giá: 15,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
@@ -45,7 +57,13 @@
                 </div>
                 <div class="sp">
                     <img src="./image/anhsp/gao.jpg" alt="Sản phẩm 2">
-                    <h3>Gạp nếp</h3>
+                    <h3>Gạo nếp</h3>
+                    <p>Giá: 15,000 VND</p>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="sp">
+                    <img src="./image/anhsp/gao504.jpg" alt="Sản phẩm 2">
+                    <h3>Gạo 504</h3>
                     <p>Giá: 15,000 VND</p>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
