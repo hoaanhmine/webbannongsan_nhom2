@@ -59,13 +59,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     $stmt->close();
 }
 
-// Handle product search
 $searchTerm = '';
 if (isset($_GET['search'])) {
     $searchTerm = $_GET['search'];
 }
 
-// Fetch all categories
 $categoryStmt = $conn->prepare("SELECT CategoryID, CategoryName FROM Categories");
 if ($categoryStmt === false) {
     die('Prepare failed: ' . htmlspecialchars($conn->error));
@@ -78,7 +76,6 @@ while ($categoryStmt->fetch()) {
 }
 $categoryStmt->close();
 
-// Fetch products
 $productStmt = $conn->prepare("SELECT ProductID, ProductName, ImageURL, Price FROM Products");
 if ($productStmt === false) {
     die('Prepare failed: ' . htmlspecialchars($conn->error));
@@ -111,7 +108,7 @@ $productStmt->close();
         .dangsp-sanpham {
             text-align: center;
             padding: 20px;
-            background: #4CAF50; /* Màu xanh lá cây */
+            background: #4CAF50; 
             color: #fff;
             margin-bottom: 20px;
         }
@@ -130,7 +127,7 @@ $productStmt->close();
             border: 1px solid #ddd;
             margin: 10px;
             padding: 10px;
-            width: 23%; /* Đảm bảo 4 sản phẩm trên một dòng */
+            width: 23%; /* 4 sản phẩm một dòng */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
@@ -154,10 +151,10 @@ $productStmt->close();
             cursor: pointer;
             transition: background 0.3s;
             margin-top: 10px;
-            border-radius: 5px; /* Bo tròn các nút */
+            border-radius: 5px; 
         }
         .dangsp-sp button:hover {
-            background: #45a049; /* Màu xanh lá cây đậm hơn */
+            background: #45a049; 
         }
         .dangsp-sp:hover {
             transform: scale(1.05);

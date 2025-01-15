@@ -1,18 +1,15 @@
 \<?php
-// Kết nối đến cơ sở dữ liệu
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "nogsan"; // Đảm bảo tên cơ sở dữ liệu là chính xác
+$dbname = "nogsan";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Kiểm tra kết nối
 if ($conn->connect_error) {
     die("Kết nối thất bại: " . $conn->connect_error);
 }
 
-// Lấy thông tin sản phẩm từ cơ sở dữ liệu
 $productID = isset($_GET['id']) ? intval($_GET['id']) : 0;
 $product = null;
 

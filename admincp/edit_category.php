@@ -6,7 +6,6 @@ include('config/config.php');
 $error = '';
 $success = '';
 
-// Handle category addition
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'add_category') {
     $categoryName = $_POST['categoryName'];
 
@@ -26,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     $stmt->close();
 }
 
-// Handle category deletion
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_category') {
     $categoryID = $_POST['categoryID'];
 
@@ -46,7 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     $stmt->close();
 }
 
-// Handle product deletion
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_product') {
     $productID = $_POST['productID'];
 
@@ -66,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     $stmt->close();
 }
 
-// Fetch all categories
 $categoryStmt = $mysqli->prepare("SELECT CategoryID, CategoryName FROM Categories");
 if ($categoryStmt === false) {
     die('Prepare failed: ' . htmlspecialchars($mysqli->error));
@@ -111,7 +107,6 @@ $categoryStmt->close();
                 </form>
                 <a href="edit_category.php?categoryID=<?php echo htmlspecialchars($category['CategoryID']); ?>">Sửa</a>
                 <?php
-                // Fetch products for this category
                 $productStmt = $mysqli->prepare("SELECT ProductID, ProductName, Price, Stock, Description, ImageURL FROM Products WHERE CategoryID = ?");
                 if ($productStmt === false) {
                     die('Prepare failed: ' . htmlspecialchars($mysqli->error));

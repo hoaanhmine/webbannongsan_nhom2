@@ -25,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $description = $_POST['description'];
     $imageURL = $_POST['imageURL'];
 
-    // Check if the category ID exists
     $stmt = $mysqli->prepare("SELECT CategoryID FROM Categories WHERE CategoryID = ?");
     if ($stmt === false) {
         die('Prepare failed: ' . htmlspecialchars($mysqli->error));
